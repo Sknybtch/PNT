@@ -1,0 +1,88 @@
+body {
+    background-color: coral;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: justify;
+  
+}
+header {
+    background-image: url(https://i.pinimg.com/736x/4a/4c/ea/4a4ceabc3cd3d866a303e59ef028423b.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    color: #f0f0f0;
+    padding: 20px;
+    text-align: justify;
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+header {
+    background-color: #1E90FF; /* Azul estilo baloncesto */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los enlaces en el encabezado */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces cuando se pasa el mouse sobre ellos */
+header nav ul li a:hover {
+    background-color: white;
+    color: #000000; /* Azul estilo baloncesto */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Estilo para el contenido */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Estilo para el texto */
+.texto {
+    flex: 1;
+}
+
+/* Estilo para las imágenes */
+.imagen {
+    flex: 1;
+    text-align: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #0a0a0a; /* Azul estilo baloncesto */
+    color: rgb(230, 139, 20); /* Color negro para tu nombre */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

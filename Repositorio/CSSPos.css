@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #050505; /* Cambia el color de fondo si lo deseas */
+    font-family: Arial, sans-serif; /* Cambia la fuente si lo deseas */
+}
+
+.content {
+    max-width: 800px; /* Cambia el ancho máximo del contenido si lo deseas */
+    padding: 20px;
+    background-color: rgb(241, 93, 7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(124, 101, 101, 0.1); /* Agrega sombra si lo deseas */
+}
+
+.texto {
+    text-align: justify; /* Alinea el texto justificado */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+header ul li:hover a {
+    color: white; /* Cambia el color del texto del enlace */
+    background-color: #333; /* Cambia el color de fondo del enlace */
+    padding: 8px 12px; /* Ajusta el relleno del enlace */
+    border-radius: 5px; /* Agrega bordes redondeados al enlace */
+}
+header h1 {
+    color: white; /* Cambia el color del texto del encabezado a blanco */
+}
+header {
+    text-align: left; /* Alinea el texto del encabezado a la izquierda */
+    padding: 20px; /* Añade espacio alrededor del encabezado */
+}
+
+header h1 {
+    color: white; /* Cambia el color del texto del encabezado a blanco */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+header nav {
+    margin-top: 10px; /* Añade un poco de espacio entre el encabezado y el menú */
+}
+
+header ul {
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 0; /* Elimina el relleno de la lista */
+}
+
+header ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Añade un espacio entre los elementos de la lista */
+}
+
+header ul li a {
+    color: white; /* Cambia el color del texto de los enlaces a blanco */
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+}
+
+header ul li:hover a {
+    background-color: #333; /* Cambia el color de fondo del enlace al hacer hover */
+    padding: 8px 12px; /* Ajusta el relleno del enlace */
+    border-radius: 5px; /* Agrega bordes redondeados al enlace */
+}
